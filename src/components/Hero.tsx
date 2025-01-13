@@ -2,8 +2,11 @@ import React from "react";
 import Logo from "./Logo";
 import { Button } from "./ui/button";
 import { ArrowRight } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const Hero = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="h-[100dvh] flex flex-col items-center justify-between p-6 gradient-background">
       <div className="flex-1 flex flex-col items-center justify-center text-center space-y-8 max-h-[80dvh]">
@@ -24,6 +27,7 @@ const Hero = () => {
       <Button 
         className="animate-fade-up opacity-0 bg-white text-black hover:bg-gray-100"
         style={{ animationDelay: "0.6s" }}
+        onClick={() => navigate("/what-is-eatsboost")}
       >
         Next
         <ArrowRight className="ml-2" />
