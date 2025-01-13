@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import WhatIsEatsBoost from "./pages/WhatIsEatsBoost";
 import HowItWorks from "./pages/HowItWorks";
+import CallToAction from "./pages/CallToAction";
 
 const queryClient = new QueryClient();
 
@@ -18,6 +19,7 @@ const App = () => {
             <Route path="/" element={<Index />} />
             <Route path="/what-is-eatsboost" element={<WhatIsEatsBoost />} />
             <Route path="/how-it-works" element={<HowItWorks />} />
+            <Route path="/download" element={<CallToAction />} />
           </Routes>
           <Toaster />
           <Sonner />

@@ -16,14 +16,14 @@ const WhatIsEatsBoost = () => {
         
         <div className="space-y-8 text-center max-w-4xl mx-auto">
           <h1 
-            className="text-4xl md:text-6xl font-semibold leading-tight tracking-tight animate-fade-up opacity-0"
+            className="text-4xl md:text-6xl font-semibold leading-tight tracking-tight text-black animate-fade-up opacity-0"
             style={{ animationDelay: "0.2s" }}
           >
             One App. All Your Favourite Eateries. Personalized Rewards
           </h1>
           
           <p 
-            className="text-xl md:text-2xl text-gray-600 leading-relaxed animate-fade-up opacity-0"
+            className="text-xl md:text-2xl text-black leading-relaxed animate-fade-up opacity-0"
             style={{ animationDelay: "0.4s" }}
           >
             With EatsBoost, complete regular visits to the eateries you love, and generate weekly offers that reward you for your loyalty
