@@ -5,8 +5,8 @@ import { ArrowRight } from "lucide-react";
 
 const Hero = () => {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-between p-6 gradient-background">
-      <div className="flex-1 flex flex-col items-center justify-center text-center space-y-8">
+    <div className="h-[100dvh] flex flex-col items-center justify-between p-6 gradient-background">
+      <div className="flex-1 flex flex-col items-center justify-center text-center space-y-8 max-h-[80dvh]">
         <Logo />
         <h1 className="text-4xl md:text-6xl font-bold animate-fade-up opacity-0" style={{ animationDelay: "0.2s" }}>
           Introducing EatsBoost
