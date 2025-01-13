@@ -17,6 +17,7 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/what-is-eatsboost" element={<WhatIsEatsBoost />} />
+          <Route path="/how-it-works" element={<WhatIsEatsBoost />} /> {/* Temporarily pointing to WhatIsEatsBoost until HowItWorks page is created */}
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
