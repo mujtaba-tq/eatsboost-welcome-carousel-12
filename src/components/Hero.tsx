@@ -14,6 +14,12 @@ const Hero = () => {
         <p className="text-xl md:text-2xl max-w-2xl mx-auto animate-fade-up opacity-0" style={{ animationDelay: "0.4s" }}>
           Get Rewarded for your loyalty with personalized offers from the eateries you love
         </p>
+        <img 
+          src="/lovable-uploads/7415354b-1912-441f-9a80-713ba069abd7.png" 
+          alt="Star Badge"
+          className="w-24 h-24 animate-fade-up opacity-0"
+          style={{ animationDelay: "0.5s" }}
+        />
       </div>
       <Button 
         className="animate-fade-up opacity-0 bg-white text-black hover:bg-gray-100"
