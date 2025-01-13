@@ -5,6 +5,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import WhatIsEatsBoost from "./pages/WhatIsEatsBoost";
+import HowItWorks from "./pages/HowItWorks";
 
 const queryClient = new QueryClient();
 
@@ -16,7 +17,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/what-is-eatsboost" element={<WhatIsEatsBoost />} />
-            <Route path="/how-it-works" element={<WhatIsEatsBoost />} /> {/* Temporarily pointing to WhatIsEatsBoost until HowItWorks page is created */}
+            <Route path="/how-it-works" element={<HowItWorks />} />
           </Routes>
           <Toaster />
           <Sonner />
