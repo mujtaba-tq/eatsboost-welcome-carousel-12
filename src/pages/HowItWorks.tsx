@@ -1,7 +1,5 @@
 import React from "react";
 import Logo from "../components/Logo";
-import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
 const HowItWorks = () => {
@@ -10,7 +8,9 @@ const HowItWorks = () => {
   return (
     <div className="min-h-[100dvh] flex flex-col items-center p-6 gradient-background">
       <div className="w-full max-w-4xl mx-auto">
-        <Logo />
+        <div className="flex justify-center">
+          <Logo />
+        </div>
         
         <div className="mt-12 space-y-8 text-center">
           <h1 
@@ -31,7 +31,12 @@ const HowItWorks = () => {
               </div>
               <div>
                 <h2 className="text-xl md:text-2xl font-semibold text-black mb-2">Buy a Boost Card</h2>
-                <p className="text-black text-lg">Each Eatery has their own Boost Card, priced at just $2.49.</p>
+                <p className="text-black text-lg">Each Eatery has their own Boost Card, priced at just <span className="font-bold">$2.49</span>.</p>
+                <div className="mt-4 p-4 bg-white/10 rounded-lg border border-white/20">
+                  <p className="text-black text-sm italic">
+                    Note: Each eatery has a limited number of Boost Cards. Once they're gone, they're gone!
+                  </p>
+                </div>
                 <img 
                   src="https://images.unsplash.com/photo-1485833077593-4278bba3f11f" 
                   alt="Boost Card" 
@@ -89,17 +94,35 @@ const HowItWorks = () => {
                 />
               </div>
             </div>
+
           </div>
         </div>
 
-        <div className="mt-12 flex justify-center">
-          <Button
-            onClick={() => navigate("/")}
-            className="bg-white text-eatsboost-orange hover:bg-white/90 animate-fade-up opacity-0"
-            style={{ animationDelay: "0.8s" }}
+        <div className="mt-12 flex justify-center space-x-6">
+          <a 
+            href="https://apps.apple.com" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="hover:opacity-80 transition-opacity"
           >
-            Back to Home <ArrowRight className="ml-2" />
-          </Button>
+            <img 
+              src="/lovable-uploads/22a107bc-6629-4c14-8c56-70ac137de28f.png" 
+              alt="Download on App Store" 
+              className="h-12"
+            />
+          </a>
+          <a 
+            href="https://play.google.com" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="hover:opacity-80 transition-opacity"
+          >
+            <img 
+              src="/lovable-uploads/7415354b-1912-441f-9a80-713ba069abd7.png" 
+              alt="Get it on Google Play" 
+              className="h-12"
+            />
+          </a>
         </div>
       </div>
     </div>
