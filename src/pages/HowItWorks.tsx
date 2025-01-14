@@ -95,6 +95,21 @@ const HowItWorks = () => {
               </div>
             </div>
 
+            <div className="relative pl-16 md:pl-20">
+              <div className="absolute left-0 top-0 w-12 h-12 md:w-16 md:h-16 bg-white rounded-full flex items-center justify-center">
+                <span className="text-2xl md:text-3xl font-bold text-eatsboost-orange">5</span>
+              </div>
+              <div>
+                <h2 className="text-xl md:text-2xl font-semibold text-black mb-2">Redeem</h2>
+                <p className="text-black text-lg">When ready to redeem, activate the offer in the app and show the server</p>
+                <img 
+                  src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d" 
+                  alt="Redeeming offer" 
+                  className="mt-6 w-full h-64 object-cover rounded-lg shadow-lg"
+                />
+              </div>
+            </div>
+
           </div>
         </div>
 
