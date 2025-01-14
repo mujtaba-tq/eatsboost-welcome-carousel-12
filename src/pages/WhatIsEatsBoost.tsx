@@ -22,12 +22,32 @@ const WhatIsEatsBoost = () => {
             One App. All Your Favourite Eateries. Personalized Rewards
           </h1>
           
-          <p 
-            className="text-xl md:text-2xl text-black leading-relaxed animate-fade-up opacity-0"
+          <div 
+            className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12 animate-fade-up opacity-0"
             style={{ animationDelay: "0.4s" }}
           >
-            With EatsBoost, complete regular visits to the eateries you love, and generate weekly offers that reward you for your loyalty
-          </p>
+            <div className="aspect-[9/16] bg-gray-200 rounded-2xl shadow-lg overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d"
+                alt="Phone Display 1"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="aspect-[9/16] bg-gray-200 rounded-2xl shadow-lg overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158"
+                alt="Phone Display 2"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="aspect-[9/16] bg-gray-200 rounded-2xl shadow-lg overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1531297484001-80022131f5a1"
+                alt="Phone Display 3"
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
         </div>
 
         <div className="mt-12 flex justify-center">
