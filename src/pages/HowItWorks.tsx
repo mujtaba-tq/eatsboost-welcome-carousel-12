@@ -98,31 +98,57 @@ const HowItWorks = () => {
           </div>
         </div>
 
-        <div className="mt-12 flex justify-center space-x-6">
-          <a 
-            href="https://apps.apple.com" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="hover:opacity-80 transition-opacity"
+        <div className="mt-24 text-center space-y-12">
+          <div 
+            className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-black/80 to-black text-transparent bg-clip-text animate-fade-up opacity-0"
+            style={{ animationDelay: "0.6s" }}
           >
-            <img 
-              src="/lovable-uploads/22a107bc-6629-4c14-8c56-70ac137de28f.png" 
-              alt="Download on App Store" 
-              className="h-12"
-            />
-          </a>
-          <a 
-            href="https://play.google.com" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="hover:opacity-80 transition-opacity"
-          >
-            <img 
-              src="/lovable-uploads/7415354b-1912-441f-9a80-713ba069abd7.png" 
-              alt="Get it on Google Play" 
-              className="h-12"
-            />
-          </a>
+            Ready to Join EatsBoost?
+          </div>
+          
+          <div className="space-y-8">
+            <div 
+              className="text-xl md:text-2xl font-semibold animate-fade-up opacity-0"
+              style={{ animationDelay: "0.7s" }}
+            >
+              1) Ask the Staff for a Boost Card
+            </div>
+            
+            <div 
+              className="space-y-4 animate-fade-up opacity-0"
+              style={{ animationDelay: "0.8s" }}
+            >
+              <div className="text-xl md:text-2xl font-semibold">
+                2) Download the app
+              </div>
+              <div className="flex justify-center space-x-6">
+                <a 
+                  href="https://apps.apple.com" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:opacity-80 transition-opacity"
+                >
+                  <img 
+                    src="/lovable-uploads/22a107bc-6629-4c14-8c56-70ac137de28f.png" 
+                    alt="Download on App Store" 
+                    className="h-12"
+                  />
+                </a>
+                <a 
+                  href="https://play.google.com" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:opacity-80 transition-opacity"
+                >
+                  <img 
+                    src="/lovable-uploads/7415354b-1912-441f-9a80-713ba069abd7.png" 
+                    alt="Get it on Google Play" 
+                    className="h-12"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
