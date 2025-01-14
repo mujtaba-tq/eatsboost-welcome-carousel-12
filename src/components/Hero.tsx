@@ -9,24 +9,32 @@ const Hero = () => {
 
   return (
     <div className="h-[100dvh] flex flex-col items-center justify-between p-6 gradient-background">
-      <div className="flex-1 flex flex-col items-center justify-center text-center space-y-8 max-h-[80dvh]">
+      <div className="flex-1 flex flex-col items-center justify-center text-center space-y-8 max-h-[80dvh] overflow-y-auto">
         <Logo />
-        <h1 className="text-4xl md:text-6xl font-bold animate-fade-up opacity-0" style={{ animationDelay: "0.2s" }}>
+        <h1 className="text-4xl md:text-6xl font-bold text-black animate-fade-up opacity-0" style={{ animationDelay: "0.2s" }}>
           Introducing EatsBoost
         </h1>
-        <p className="text-xl md:text-2xl max-w-2xl mx-auto animate-fade-up opacity-0" style={{ animationDelay: "0.4s" }}>
-          Get Rewarded for your loyalty with personalized offers from the eateries you love
+        <h2 className="text-xl md:text-3xl font-semibold text-black max-w-3xl animate-fade-up opacity-0" style={{ animationDelay: "0.3s" }}>
+          An Amazing New App, To Elevate Your Experience with Your Favourite Eateries
+        </h2>
+        <p className="text-lg md:text-xl text-black max-w-2xl animate-fade-up opacity-0" style={{ animationDelay: "0.4s" }}>
+          Spoiler Alert: EatsBoost rewards you for your continued visits by giving you amazing offers on the food you love. Complete a few visits every cycle, and for the next 30 days, enjoy exclusive offers every week
         </p>
+        <div className="relative animate-fade-up opacity-0" style={{ animationDelay: "0.5s" }}>
+          <p className="text-2xl md:text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-eatsboost-orange to-eatsboost-yellow animate-pulse">
+            Rewards for Regulars. You Deserve it.
+          </p>
+        </div>
         <img 
           src="/lovable-uploads/7415354b-1912-441f-9a80-713ba069abd7.png" 
           alt="Star Badge"
           className="w-24 h-24 animate-fade-up opacity-0"
-          style={{ animationDelay: "0.5s" }}
+          style={{ animationDelay: "0.6s" }}
         />
       </div>
       <Button 
         className="animate-fade-up opacity-0 bg-white text-black hover:bg-gray-100"
-        style={{ animationDelay: "0.6s" }}
+        style={{ animationDelay: "0.7s" }}
         onClick={() => navigate("/what-is-eatsboost")}
       >
         Next
