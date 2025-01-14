@@ -1,5 +1,7 @@
 import React from "react";
 import Logo from "../components/Logo";
+import { Button } from "../components/ui/button";
+import { ArrowRight } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
 const HowItWorks = () => {
@@ -109,61 +111,18 @@ const HowItWorks = () => {
                 />
               </div>
             </div>
-
           </div>
         </div>
 
-        <div className="mt-24 text-center space-y-12">
-          <div 
-            className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-black/80 to-black text-transparent bg-clip-text animate-fade-up opacity-0"
+        <div className="mt-16 flex justify-center">
+          <Button 
+            className="animate-fade-up opacity-0 bg-white text-black hover:bg-gray-100"
             style={{ animationDelay: "0.6s" }}
+            onClick={() => navigate("/download")}
           >
-            Ready to Join EatsBoost?
-          </div>
-          
-          <div className="space-y-8">
-            <div 
-              className="text-xl md:text-2xl font-semibold animate-fade-up opacity-0"
-              style={{ animationDelay: "0.7s" }}
-            >
-              1) Ask the Staff for a Boost Card
-            </div>
-            
-            <div 
-              className="space-y-4 animate-fade-up opacity-0"
-              style={{ animationDelay: "0.8s" }}
-            >
-              <div className="text-xl md:text-2xl font-semibold">
-                2) Download the app
-              </div>
-              <div className="flex justify-center space-x-6">
-                <a 
-                  href="https://apps.apple.com" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="hover:opacity-80 transition-opacity"
-                >
-                  <img 
-                    src="/lovable-uploads/22a107bc-6629-4c14-8c56-70ac137de28f.png" 
-                    alt="Download on App Store" 
-                    className="h-12"
-                  />
-                </a>
-                <a 
-                  href="https://play.google.com" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="hover:opacity-80 transition-opacity"
-                >
-                  <img 
-                    src="/lovable-uploads/7415354b-1912-441f-9a80-713ba069abd7.png" 
-                    alt="Get it on Google Play" 
-                    className="h-12"
-                  />
-                </a>
-              </div>
-            </div>
-          </div>
+            Next
+            <ArrowRight className="ml-2" />
+          </Button>
         </div>
       </div>
     </div>
