@@ -8,9 +8,7 @@ const Hero = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="min-h-[100dvh] flex flex-col items-center justify-between p-6" style={{
-      background: "linear-gradient(135deg, #1a1a1a 0%, #4a4a4a 100%)"
-    }}>
+    <div className="min-h-[100dvh] flex flex-col items-center justify-between p-6 gradient-background">
       <div className="flex-1 flex flex-col items-center justify-center text-center space-y-8 py-12">
         <Logo />
         <h1 className="text-4xl md:text-6xl font-bold text-black animate-fade-up opacity-0" style={{ animationDelay: "0.2s" }}>
@@ -23,7 +21,7 @@ const Hero = () => {
           <strong>EatsBoost</strong> rewards you for your continued visits by giving you amazing offers on the food you love. Complete a few visits every cycle, and for the next 30 days, enjoy exclusive offers every week
         </p>
         <div className="relative animate-fade-up opacity-0" style={{ animationDelay: "0.5s" }}>
-          <p className="text-2xl md:text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-eatsboost-orange to-eatsboost-yellow animate-pulse">
+          <p className="text-2xl md:text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-gray-800 to-gray-600 animate-pulse">
             Rewards for Regulars. You Deserve it.
           </p>
         </div>
