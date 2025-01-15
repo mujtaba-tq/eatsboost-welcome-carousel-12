@@ -60,9 +60,9 @@ const HowItWorks = () => {
                   </p>
                 </div>
                 <img 
-                  src="https://images.unsplash.com/photo-1438565434616-3ef039228b15" 
-                  alt="QR Code scanning" 
-                  className="mt-6 w-full h-64 object-cover rounded-lg shadow-lg"
+                  src="/lovable-uploads/c7b91457-6b46-402a-8f58-ecfd066db8d5.png" 
+                  alt="QR Code scanning example" 
+                  className="mt-6 w-full max-w-md mx-auto h-auto object-contain rounded-lg shadow-lg"
                 />
               </div>
             </div>
