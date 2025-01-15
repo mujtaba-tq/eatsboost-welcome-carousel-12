@@ -40,9 +40,9 @@ const HowItWorks = () => {
                   </p>
                 </div>
                 <img 
-                  src="https://images.unsplash.com/photo-1485833077593-4278bba3f11f" 
-                  alt="Boost Card" 
-                  className="mt-6 w-full h-64 object-cover rounded-lg shadow-lg"
+                  src="/lovable-uploads/8718e592-f145-4079-826d-2e12db5e5d97.png"
+                  alt="Boost Card Example" 
+                  className="mt-6 w-full max-w-md mx-auto h-auto object-contain rounded-lg shadow-lg"
                 />
               </div>
             </div>
