@@ -39,11 +39,6 @@ const HowItWorks = () => {
                     Note: Each eatery has a limited number of Boost Cards. Once they're gone, they're gone!
                   </p>
                 </div>
-                <img 
-                  src="/lovable-uploads/8718e592-f145-4079-826d-2e12db5e5d97.png"
-                  alt="Boost Card Example" 
-                  className="mt-6 w-full max-w-md mx-auto h-auto object-contain rounded-lg shadow-lg"
-                />
               </div>
             </div>
 
@@ -59,11 +54,6 @@ const HowItWorks = () => {
                     Note: Keep your Boost Card safe, each boost card is unique to you and you will need it for exciting new features, soon to be launched.
                   </p>
                 </div>
-                <img 
-                  src="/lovable-uploads/c7b91457-6b46-402a-8f58-ecfd066db8d5.png" 
-                  alt="QR Code scanning example" 
-                  className="mt-6 w-full max-w-md mx-auto h-auto object-contain rounded-lg shadow-lg"
-                />
               </div>
             </div>
 
@@ -74,11 +64,6 @@ const HowItWorks = () => {
               <div>
                 <h2 className="text-xl md:text-2xl font-semibold text-black mb-2">Complete Regular Visits</h2>
                 <p className="text-black text-lg">Each eatery has a predetermined number of visits that must be completed before you can generate offers, log visits in the app!</p>
-                <img 
-                  src="https://images.unsplash.com/photo-1501286353178-1ec881214838" 
-                  alt="Regular visits" 
-                  className="mt-6 w-full h-64 object-cover rounded-lg shadow-lg"
-                />
               </div>
             </div>
 
@@ -89,11 +74,6 @@ const HowItWorks = () => {
               <div>
                 <h2 className="text-xl md:text-2xl font-semibold text-black mb-2">Generate Offers</h2>
                 <p className="text-black text-lg">Generate offers once every 7 days (redeem before they expire!). Offers get better over time, so keep generating and redeeming!</p>
-                <img 
-                  src="https://images.unsplash.com/photo-1469041797191-50ace28483c3" 
-                  alt="Generate offers" 
-                  className="mt-6 w-full h-64 object-cover rounded-lg shadow-lg"
-                />
               </div>
             </div>
 
@@ -104,11 +84,6 @@ const HowItWorks = () => {
               <div>
                 <h2 className="text-xl md:text-2xl font-semibold text-black mb-2">Redeem</h2>
                 <p className="text-black text-lg">When ready to redeem, activate the offer in the app and show the server</p>
-                <img 
-                  src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d" 
-                  alt="Redeeming offer" 
-                  className="mt-6 w-full h-64 object-cover rounded-lg shadow-lg"
-                />
               </div>
             </div>
           </div>
