@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "../components/Logo";
 import { Button } from "../components/ui/button";
 import { useNavigate } from "react-router-dom";
-import { Search, ArrowRight } from "lucide-react";
+import { Search } from "lucide-react";
 
 const CallToAction = () => {
   const navigate = useNavigate();
@@ -16,7 +16,7 @@ const CallToAction = () => {
           </div>
           <Button 
             onClick={() => navigate("/eatery-search")}
-            className="bg-eatsboost-orange hover:bg-eatsboost-yellow text-white hover:text-black transition-all duration-300 transform hover:scale-105 animate-pulse"
+            className="bg-eatsboost-orange hover:bg-eatsboost-yellow text-white hover:text-black transition-all duration-300"
           >
             <Search className="mr-2 h-4 w-4" />
             Eatery Search
