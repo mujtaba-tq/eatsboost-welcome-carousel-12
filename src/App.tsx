@@ -8,6 +8,7 @@ import Index from "./pages/Index";
 import WhatIsEatsBoost from "./pages/WhatIsEatsBoost";
 import HowItWorks from "./pages/HowItWorks";
 import CallToAction from "./pages/CallToAction";
+import EaterySearch from "./pages/EaterySearch";
 
 // Scroll to top component
 const ScrollToTop = () => {
@@ -33,6 +34,7 @@ const App = () => {
             <Route path="/what-is-eatsboost" element={<WhatIsEatsBoost />} />
             <Route path="/how-it-works" element={<HowItWorks />} />
             <Route path="/download" element={<CallToAction />} />
+            <Route path="/eatery-search" element={<EaterySearch />} />
           </Routes>
           <Toaster />
           <Sonner />

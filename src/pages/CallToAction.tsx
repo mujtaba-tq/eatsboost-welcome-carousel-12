@@ -1,36 +1,33 @@
 import React from "react";
 import Logo from "../components/Logo";
+import { Button } from "../components/ui/button";
+import { useNavigate } from "react-router-dom";
+import { Search, ArrowRight } from "lucide-react";
 
 const CallToAction = () => {
+  const navigate = useNavigate();
+
   return (
-    <div className="min-h-[100dvh] flex flex-col items-center justify-center p-6 bg-gradient-to-br from-white to-gray-100">
-      <div className="w-full max-w-4xl mx-auto text-center space-y-12">
-        <div className="animate-fade-up opacity-0" style={{ animationDelay: "0.2s" }}>
-          <Logo />
-        </div>
-        
-        <div className="space-y-8">
-          <h1 
-            className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-gray-900 to-gray-600 bg-clip-text text-transparent animate-fade-up opacity-0"
-            style={{ animationDelay: "0.4s" }}
+    <div className="min-h-[100dvh] flex flex-col items-center p-6 gradient-background">
+      <div className="w-full max-w-4xl mx-auto">
+        <div className="flex justify-between items-center w-full">
+          <div className="flex justify-center flex-grow">
+            <Logo />
+          </div>
+          <Button 
+            onClick={() => navigate("/eatery-search")}
+            className="bg-eatsboost-orange hover:bg-eatsboost-yellow text-white hover:text-black transition-all duration-300 transform hover:scale-105 animate-pulse"
           >
-            Join EatsBoost and Redefine Your Eating Out Experience
-          </h1>
-          
-          <p 
-            className="text-xl md:text-2xl text-gray-600 animate-fade-up opacity-0"
-            style={{ animationDelay: "0.6s" }}
-          >
-            Available on both iOS and Android
-          </p>
+            <Search className="mr-2 h-4 w-4" />
+            Eatery Search
+          </Button>
         </div>
 
-        <p 
-          className="text-2xl md:text-3xl font-semibold text-gray-800 mt-12 animate-fade-up opacity-0"
-          style={{ animationDelay: "0.8s" }}
-        >
-          Ask the server for a Boost Card and Download the App!
-        </p>
+        <div className="mt-12 space-y-8 text-center">
+          <h1 className="text-4xl font-bold text-black animate-fade-up opacity-0" style={{ animationDelay: "0.2s" }}>
+            Ask the server for a Boost Card and Download the App!
+          </h1>
+        </div>
       </div>
     </div>
   );
