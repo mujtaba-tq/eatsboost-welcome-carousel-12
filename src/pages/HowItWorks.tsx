@@ -19,7 +19,7 @@ const HowItWorks = () => {
             className="text-2xl md:text-4xl font-bold text-black animate-fade-up opacity-0"
             style={{ animationDelay: "0.2s" }}
           >
-            Buy Your Boost Card, Complete Your Monthly Visits, Generate Offers, Redeem.
+            Buy a Boost Card, Complete & Log Visits, Enter a Boost Cycle, Generate Offers, Redeem, Repeat.
             <span className="block mt-2 text-xl md:text-2xl italic">As Amazing as it Seems</span>
           </h1>
 
