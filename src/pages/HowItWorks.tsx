@@ -65,7 +65,7 @@ const HowItWorks = () => {
               </div>
               <div>
                 <h2 className="text-xl md:text-2xl font-semibold text-black mb-2">Complete Regular Visits</h2>
-                <p className="text-black text-lg">Each eatery has a predetermined number of visits that must be completed before you can generate offers, log visits in the app!</p>
+                <p className="text-black text-lg">Each eatery will have a few number of regular visits (with a minimum spend) to complete being able to generate offers. Log your visits in the app to enter a <span className="font-bold">Boost Cycle</span>, and generate 2 offers every <span className="font-bold">7 days</span>!</p>
               </div>
             </div>
 
