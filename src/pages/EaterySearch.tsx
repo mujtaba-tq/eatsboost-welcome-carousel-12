@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Logo from "../components/Logo";
 import { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem } from "@/components/ui/command";
 import { cn } from "@/lib/utils";
+import BackButton from "../components/BackButton";
 
 // Mock data - in a real app, this would come from an API
 const mockEateries = [
@@ -16,6 +17,7 @@ const EaterySearch = () => {
 
   return (
     <div className="min-h-[100dvh] flex flex-col items-center p-6 gradient-background">
+      <BackButton />
       <div className="w-full max-w-4xl mx-auto">
         <div className="flex justify-center">
           <Logo />

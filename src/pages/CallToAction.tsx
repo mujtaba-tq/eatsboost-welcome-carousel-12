@@ -1,9 +1,11 @@
 import React from "react";
 import Logo from "../components/Logo";
+import BackButton from "../components/BackButton";
 
 const CallToAction = () => {
   return (
     <div className="min-h-[100dvh] flex flex-col items-center p-6">
+      <BackButton />
       <div className="w-full max-w-4xl mx-auto">
         <Logo />
         <div className="mt-12 space-y-8 text-center">
