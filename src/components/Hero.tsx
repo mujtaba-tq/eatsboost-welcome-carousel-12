@@ -18,7 +18,7 @@ const Hero = () => {
           An Amazing New App, To Elevate Your Experience with Your Favourite Eateries
         </h2>
         <p className="text-lg md:text-xl text-black max-w-2xl animate-fade-up opacity-0" style={{ animationDelay: "0.4s" }}>
-          <strong>EatsBoost</strong> rewards you for your continued visits by giving you amazing offers on the food you love. Complete a few visits every cycle, and for the next 30 days, enjoy exclusive offers every week
+          EatsBoost rewards you for your continued visits by giving you amazing offers on the food you love. Complete a few visits to start a Boost Cycle, Get Offers, and Enjoy. A new way to reshape your dining experience
         </p>
         <div className="relative animate-fade-up opacity-0" style={{ animationDelay: "0.5s" }}>
           <p className="text-2xl md:text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-gray-800 to-gray-600 animate-pulse">
