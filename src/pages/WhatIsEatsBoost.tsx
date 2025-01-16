@@ -19,7 +19,7 @@ const WhatIsEatsBoost = () => {
             className="text-4xl md:text-6xl font-semibold leading-tight tracking-tight text-black animate-fade-up opacity-0"
             style={{ animationDelay: "0.2s" }}
           >
-            One App. All Your Favourite Eateries. Personalized Rewards
+            One App. The Eateries You Love. Personalized Offers.
           </h1>
           
           <div 
