@@ -3,12 +3,14 @@ import Logo from "../components/Logo";
 import { Button } from "../components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import BackButton from "../components/BackButton";
 
 const HowItWorks = () => {
   const navigate = useNavigate();
 
   return (
     <div className="min-h-[100dvh] flex flex-col items-center p-6 gradient-background">
+      <BackButton />
       <div className="w-full max-w-4xl mx-auto">
         <div className="flex justify-center">
           <Logo />
