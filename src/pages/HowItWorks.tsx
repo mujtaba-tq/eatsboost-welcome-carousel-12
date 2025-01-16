@@ -33,10 +33,10 @@ const HowItWorks = () => {
               </div>
               <div>
                 <h2 className="text-xl md:text-2xl font-semibold text-black mb-2">Buy a Boost Card</h2>
-                <p className="text-black text-lg">Each Eatery has their own Boost Card, priced at just <span className="font-bold">$4.99</span>. The Boost Card is a one time purchase, and pays for itself when you use about 5 offers!</p>
+                <p className="text-black text-lg">Each eatery has an <span className="font-bold">exclusive</span> Boost Card available for purchase. Buy your very own for <span className="font-bold">$4.99</span>. The Boost Card is a one time purchase, and pays for itself when you use about 5 offers!</p>
                 <div className="mt-4 p-4 bg-white/10 rounded-lg border border-white/20">
                   <p className="text-black text-sm italic">
-                    Note: Each eatery has a limited number of Boost Cards. Once they're gone, they're gone!
+                    <span className="font-bold">Note:</span> Each eatery has a limited number of Boost Cards. Once they're gone, they're gone!
                   </p>
                 </div>
               </div>
