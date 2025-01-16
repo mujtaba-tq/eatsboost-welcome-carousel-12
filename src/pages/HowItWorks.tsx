@@ -20,7 +20,7 @@ const HowItWorks = () => {
             style={{ animationDelay: "0.2s" }}
           >
             Buy a Boost Card, Complete & Log Visits, Enter a Boost Cycle, Generate Offers, Redeem, Repeat.
-            <span className="block mt-2 text-xl md:text-2xl italic">As Amazing as it Seems</span>
+            <span className="block mt-2 text-xl md:text-2xl italic">Reshape Your Dining Experience</span>
           </h1>
 
           <div 
