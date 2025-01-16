@@ -65,7 +65,7 @@ const HowItWorks = () => {
               </div>
               <div>
                 <h2 className="text-xl md:text-2xl font-semibold text-black mb-2">Complete Regular Visits</h2>
-                <p className="text-black text-lg">Each eatery will have a few number of regular visits (with a minimum spend) to complete being able to generate offers. Log your visits in the app to enter a <span className="font-bold">Boost Cycle</span>, and generate 2 offers every <span className="font-bold">7 days</span>!</p>
+                <p className="text-black text-lg">Each eatery will have a few number of regular visits (with a minimum spend) to complete before being able to generate offers. Log your visits in the app to enter a <span className="font-bold">Boost Cycle</span>, and begin generating offers.</p>
               </div>
             </div>
 
@@ -75,7 +75,7 @@ const HowItWorks = () => {
               </div>
               <div>
                 <h2 className="text-xl md:text-2xl font-semibold text-black mb-2">Generate Offers</h2>
-                <p className="text-black text-lg">Generate offers once every 7 days (redeem before they expire!). Offers get better over time, so keep generating and redeeming!</p>
+                <p className="text-black text-lg">You can generate <span className="font-bold">two offers</span> once every <span className="font-bold">7 days</span> (redeem before they expire!). Offers get better over time, so keep generating and redeeming!</p>
               </div>
             </div>
 
