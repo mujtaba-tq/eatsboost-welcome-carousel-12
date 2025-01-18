@@ -32,8 +32,8 @@ const Hero = () => {
           </p>
         </div>
         <img 
-          src="/lovable-uploads/7415354b-1912-441f-9a80-713ba069abd7.png" 
-          alt="Star Badge"
+          src="/lovable-uploads/8f2ff72b-8d92-4050-bab7-8373c2b55105.png" 
+          alt="Heart Icon"
           className="w-24 h-24 animate-fade-up opacity-0"
           style={{ animationDelay: "0.6s" }}
         />
