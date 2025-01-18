@@ -9,7 +9,7 @@ const CallToAction = () => {
       <div className="w-full max-w-4xl mx-auto">
         <Logo />
         <div className="mt-12 space-y-8 text-center">
-          <h1 className="text-5xl font-bold font-poppins bg-gradient-to-r from-black to-gray-700 bg-clip-text text-transparent animate-fade-up opacity-0" style={{ animationDelay: "0.2s" }}>
+          <h1 className="text-5xl font-bold bg-gradient-to-r from-black to-gray-700 bg-clip-text text-transparent animate-fade-up opacity-0" style={{ animationDelay: "0.2s" }}>
             Got Offers?
           </h1>
           <h2 className="text-3xl font-semibold text-black animate-fade-up opacity-0" style={{ animationDelay: "0.3s" }}>
