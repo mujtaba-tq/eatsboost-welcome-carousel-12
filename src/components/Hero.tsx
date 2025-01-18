@@ -20,6 +20,9 @@ const Hero = () => {
         <p className="text-lg md:text-xl text-black max-w-3xl animate-fade-up opacity-0" style={{ animationDelay: "0.4s" }}>
           McDonald's and Starbucks have beautiful loyalty programs that help them make billions by driving repeat business. Huge companies with lots of technical talent and money. But what about local restaurants?
         </p>
+        <p className="text-lg md:text-xl text-black max-w-3xl animate-fade-up opacity-0" style={{ animationDelay: "0.45s" }}>
+          The food business is an extremely <span className="font-bold">competitive</span> space and loyalty programs help greatly. But you didn't choose to enter the food business to compete, you did it to serve <span className="font-bold">amazing</span> food, deliver <span className="font-bold">excellent</span> service, and to put <span className="font-bold">smiles</span> on the faces of your community
+        </p>
         <div className="relative animate-fade-up opacity-0" style={{ animationDelay: "0.5s" }}>
           <p className="text-2xl md:text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-gray-800 to-gray-600 animate-pulse">
             Rewards for Regulars. You Deserve it.
