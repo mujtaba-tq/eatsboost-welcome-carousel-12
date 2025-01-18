@@ -65,7 +65,17 @@ const HowItWorks = () => {
               </div>
               <div>
                 <h2 className="text-xl md:text-2xl font-semibold text-black mb-2">Complete Regular Visits</h2>
-                <p className="text-black text-lg">Each eatery will have a few number of regular visits (with a minimum spend) to complete before being able to generate offers. Log your visits in the app to enter a <span className="font-bold">Boost Cycle</span>, and begin generating offers.</p>
+                <p className="text-black text-lg">Each eatery will have a few number of regular visits (with a minimum spend) to complete before being able to generate offers. Log your visits in the app to enter a <span className="font-bold">Boost Cycle</span>*, and begin generating offers.</p>
+                <div className="mt-4 p-4 bg-white/10 rounded-lg border border-white/20">
+                  <p className="text-black text-sm italic">
+                    <span className="font-bold">Example:</span> Papa's Pizzeria - 2 regular visits & $9.99 spend per visit to unlock <span className="font-bold">Boost Cycle</span>.
+                  </p>
+                </div>
+                <div className="mt-4 p-4 bg-white/10 rounded-lg border border-white/20">
+                  <p className="text-black text-sm italic">
+                    <span className="font-bold">Boost Cycle:</span> A period of 30 days where you can generate 2 offers every 7 days. Once a <span className="font-bold">Boost Cycle</span> ends, complete visits to begin a new <span className="font-bold">Boost Cycle</span>.
+                  </p>
+                </div>
               </div>
             </div>
 
