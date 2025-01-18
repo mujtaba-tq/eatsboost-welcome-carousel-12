@@ -14,11 +14,11 @@ const Hero = () => {
         <h1 className="text-4xl md:text-6xl font-bold text-black animate-fade-up opacity-0" style={{ animationDelay: "0.2s" }}>
           Introducing EatsBoost
         </h1>
-        <h2 className="text-xl md:text-3xl font-semibold text-black max-w-3xl animate-fade-up opacity-0" style={{ animationDelay: "0.3s" }}>
-          An Amazing New App, To Elevate Your Experience with Your Favourite Eateries
+        <h2 className="text-2xl md:text-4xl font-semibold text-black max-w-4xl animate-fade-up opacity-0" style={{ animationDelay: "0.3s" }}>
+          A Smarter, Simpler Way to Reap the Benefits of Loyalty Programs
         </h2>
-        <p className="text-lg md:text-xl text-black max-w-2xl animate-fade-up opacity-0" style={{ animationDelay: "0.4s" }}>
-          EatsBoost rewards you for your continued visits by giving you amazing offers on the food you love. Complete a few visits to start a Boost Cycle, Get Offers, and Enjoy. A new way to reshape your dining experience
+        <p className="text-lg md:text-xl text-black max-w-3xl animate-fade-up opacity-0" style={{ animationDelay: "0.4s" }}>
+          McDonald's and Starbucks have beautiful loyalty programs that help them make billions by driving repeat business. Huge companies with lots of technical talent and money. But what about local restaurants?
         </p>
         <div className="relative animate-fade-up opacity-0" style={{ animationDelay: "0.5s" }}>
           <p className="text-2xl md:text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-gray-800 to-gray-600 animate-pulse">
