@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "../components/Logo";
 import { Button } from "../components/ui/button";
-import { ArrowRight, Lightbulb } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import BackButton from "../components/BackButton";
 
@@ -21,25 +21,9 @@ const HowItWorks = () => {
             className="text-2xl md:text-4xl font-bold text-black animate-fade-up opacity-0"
             style={{ animationDelay: "0.2s" }}
           >
-            Sell a Boost Card
+            Buy a Boost Card, Complete & Log Visits, Enter a Boost Cycle, Generate Offers, Redeem, Repeat.
+            <span className="block mt-2 text-xl md:text-2xl italic">Reshape Your Dining Experience</span>
           </h1>
-
-          <p 
-            className="text-xl md:text-2xl text-black animate-fade-up opacity-0"
-            style={{ animationDelay: "0.3s" }}
-          >
-            Purchase Boost Cards from EatsBoost in bulk, and sell them for <span className="font-bold">$8</span>. This gives customers the ability to add your eatery to their profile.
-          </p>
-
-          <div 
-            className="bg-white/10 rounded-lg border border-white/20 p-6 flex items-start gap-4 animate-fade-up opacity-0"
-            style={{ animationDelay: "0.4s" }}
-          >
-            <Lightbulb className="w-6 h-6 text-eatsboost-yellow flex-shrink-0 mt-1" />
-            <p className="text-left text-lg">
-              Think of it like a Costco-style model to access your eatery on the <span className="font-bold">EatsBoost Network</span>. If customers have already paid for the privilege of adding your eatery and generating offers, they are more likely to dine here, and as a result spend more.
-            </p>
-          </div>
 
           <div 
             className="mt-16 space-y-24 text-left animate-fade-up opacity-0"
@@ -115,17 +99,17 @@ const HowItWorks = () => {
               </div>
             </div>
           </div>
+        </div>
 
-          <div className="mt-16 flex justify-center">
-            <Button 
-              className="animate-fade-up opacity-0 bg-white text-black hover:bg-gray-100"
-              style={{ animationDelay: "0.6s" }}
-              onClick={() => navigate("/download")}
-            >
-              Next
-              <ArrowRight className="ml-2" />
-            </Button>
-          </div>
+        <div className="mt-16 flex justify-center">
+          <Button 
+            className="animate-fade-up opacity-0 bg-white text-black hover:bg-gray-100"
+            style={{ animationDelay: "0.6s" }}
+            onClick={() => navigate("/download")}
+          >
+            Next
+            <ArrowRight className="ml-2" />
+          </Button>
         </div>
       </div>
     </div>
