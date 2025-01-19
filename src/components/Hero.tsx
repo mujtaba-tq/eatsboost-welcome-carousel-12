@@ -18,17 +18,17 @@ const Hero = () => {
           A Smarter, Simpler Way to Reap the Benefits of Loyalty Programs
         </h2>
         <p className="text-lg md:text-xl text-black max-w-3xl animate-fade-up opacity-0" style={{ animationDelay: "0.4s" }}>
-          McDonald's and Starbucks have beautiful loyalty programs that help them make billions by driving repeat business. Huge companies with lots of technical talent and money. <span className="font-bold text-xl">But what about local restaurants?</span>
+          <span className="font-bold">McDonald's</span> and <span className="font-bold">Starbucks</span> have beautiful loyalty programs that help them make billions by driving repeat business. Huge companies with lots of technical talent and money. <span className="font-bold text-xl">But what about local restaurants?</span>
         </p>
         <p className="text-lg md:text-xl text-black max-w-3xl animate-fade-up opacity-0" style={{ animationDelay: "0.45s" }}>
           Loyalty programs are extremely beneficial and make a real difference. But running a successful loyalty program is really hard, and shouldn't be something you should worry about. Your focus should be on serving <span className="font-bold">amazing</span> food and delivering <span className="font-bold">excellent</span> service.
         </p>
         <p className="text-lg md:text-xl text-black max-w-3xl animate-fade-up opacity-0" style={{ animationDelay: "0.47s" }}>
-          We built EatsBoost to help you with your mission. We want you to focus on what matters, while you leave the complexities of running a loyalty program to us
+          EatsBoost does all the <span className="font-bold">heavy-lifting</span> to provide you with a <span className="font-bold">sophisticated, revolutionary</span> loyalty platform so you can enjoy all the benefits, while focusing on what <span className="font-bold">really</span> matters
         </p>
         <div className="relative animate-fade-up opacity-0" style={{ animationDelay: "0.5s" }}>
-          <p className="text-2xl md:text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-gray-800 to-gray-600 animate-pulse">
-            Enjoy the benefits, let us do the heavy lifting, just focus on serving great food
+          <p className="text-2xl md:text-3xl font-bold text-black">
+            All the benefits. Set it and Forget it. You'll love it, your customers will love it
           </p>
         </div>
         <img 
