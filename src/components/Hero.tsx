@@ -18,10 +18,10 @@ const Hero = () => {
           A Smarter, Simpler Way to Reap the Benefits of Loyalty Programs
         </h2>
         <p className="text-lg md:text-xl text-black max-w-3xl animate-fade-up opacity-0" style={{ animationDelay: "0.4s" }}>
-          McDonald's and Starbucks have beautiful loyalty programs that help them make billions by driving repeat business. Huge companies with lots of technical talent and money. But what about local restaurants?
+          McDonald's and Starbucks have beautiful loyalty programs that help them make billions by driving repeat business. Huge companies with lots of technical talent and money. <span className="font-bold text-xl">But what about local restaurants?</span>
         </p>
         <p className="text-lg md:text-xl text-black max-w-3xl animate-fade-up opacity-0" style={{ animationDelay: "0.45s" }}>
-          The food business is an extremely <span className="font-bold">competitive</span> space and loyalty programs help greatly. But you didn't choose to enter the food business to compete, you did it to serve <span className="font-bold">amazing</span> food, deliver <span className="font-bold">excellent</span> service, and to put <span className="font-bold">smiles</span> on the faces of your community
+          Loyalty programs are extremely beneficial and make a real difference. But running a successful loyalty program is really hard, and shouldn't be something you should worry about. Your focus should be on serving <span className="font-bold">amazing</span> food and delivering <span className="font-bold">excellent</span> service.
         </p>
         <p className="text-lg md:text-xl text-black max-w-3xl animate-fade-up opacity-0" style={{ animationDelay: "0.47s" }}>
           We built EatsBoost to help you with your mission. We want you to focus on what matters, while you leave the complexities of running a loyalty program to us
