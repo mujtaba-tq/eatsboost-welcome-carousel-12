@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "../components/Logo";
 import { Button } from "../components/ui/button";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Lightbulb } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import BackButton from "../components/BackButton";
 
@@ -34,11 +34,12 @@ const HowItWorks = () => {
                 <span className="text-2xl md:text-3xl font-bold text-eatsboost-orange">1</span>
               </div>
               <div>
-                <h2 className="text-xl md:text-2xl font-semibold text-black mb-2">Buy a Boost Card</h2>
-                <p className="text-black text-lg">Each eatery has an <span className="font-bold">exclusive</span> Boost Card available for purchase. Buy your very own for <span className="font-bold">$8</span>. The Boost Card is a one time purchase, and gives you lifelong offers!</p>
-                <div className="mt-4 p-4 bg-white/10 rounded-lg border border-white/20">
-                  <p className="text-black text-sm italic">
-                    <span className="font-bold">Note:</span> Each eatery has a limited number of Boost Cards. Once they're gone, they're gone!
+                <h2 className="text-xl md:text-2xl font-semibold text-black mb-2">Sell a Boost Card</h2>
+                <p className="text-black text-lg">Purchase Boost Cards from EatsBoost in bulk, and sell them for <span className="font-bold">$8</span>. This gives customers the ability to add your eatery to their profile.</p>
+                <div className="mt-4 p-4 bg-white/10 rounded-lg border border-white/20 flex items-start gap-3">
+                  <Lightbulb className="w-6 h-6 text-eatsboost-yellow flex-shrink-0 mt-1" />
+                  <p className="text-black text-sm">
+                    Think of it like a Costco-style model to access your eatery on the <span className="font-bold">EatsBoost Network</span>. If customers have already paid for the privilege of adding your eatery and generating offers, they are more likely to dine here, and as a result spend more.
                   </p>
                 </div>
               </div>
