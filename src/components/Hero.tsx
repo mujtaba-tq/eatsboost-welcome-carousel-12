@@ -18,7 +18,7 @@ const Hero = () => {
           A Smarter, Simpler Way to Engage With Your Customers, and <span className="font-bold">Boost</span> your sales
         </h2>
         <p className="text-lg md:text-xl text-black max-w-3xl animate-fade-up opacity-0" style={{ animationDelay: "0.4s" }}>
-          McDonald's and Starbucks have beautiful loyalty programs that help them make billions by driving <span className="font-bold">repeat</span> business - both huge companies with lots of technical expertise and money. But what about local restaurants?
+          <span className="font-bold">McDonald's</span> and <span className="font-bold">Starbucks</span> have beautiful loyalty programs that help them make billions by driving <span className="font-bold">repeat</span> business - both huge companies with lots of technical expertise and money. <span className="font-bold">But what about local restaurants?</span>
         </p>
         <p className="text-lg md:text-xl text-black max-w-3xl animate-fade-up opacity-0" style={{ animationDelay: "0.45s" }}>
           Loyalty programs are <span className="font-bold">extremely</span> beneficial and <span className="font-bold">boost</span> sales. But running a successful loyalty program is really hard and time consuming. Implementing them is a <span className="font-bold">no brainer</span> but <span className="font-bold">your</span> focus should be on serving <span className="font-bold">amazing</span> food and delivering <span className="font-bold">excellent</span> service.
