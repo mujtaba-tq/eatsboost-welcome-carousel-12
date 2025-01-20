@@ -15,10 +15,10 @@ const Hero = () => {
           Introducing EatsBoost
         </h1>
         <h2 className="text-2xl md:text-4xl font-semibold text-black max-w-4xl animate-fade-up opacity-0" style={{ animationDelay: "0.3s" }}>
-          A Smarter, Simpler Way to Reap the Benefits of Loyalty Programs
+          A Smarter, Simpler Way to Engage With Your Customers, and <span className="font-bold">Boost</span> your sales
         </h2>
         <p className="text-lg md:text-xl text-black max-w-3xl animate-fade-up opacity-0" style={{ animationDelay: "0.4s" }}>
-          <span className="font-bold">McDonald's</span> and <span className="font-bold">Starbucks</span> have beautiful loyalty programs that help them make billions by driving repeat business. Huge companies with lots of technical talent and money. <span className="font-bold text-xl">But what about local restaurants?</span>
+          McDonald's and Starbucks have beautiful loyalty programs that help them make billions by driving <span className="font-bold">repeat</span> business - both huge companies with lots of technical expertise and money. But what about local restaurants?
         </p>
         <p className="text-lg md:text-xl text-black max-w-3xl animate-fade-up opacity-0" style={{ animationDelay: "0.45s" }}>
           Loyalty programs are extremely beneficial and make a real difference. But running a successful loyalty program is really hard, and shouldn't be something you should worry about. Your focus should be on serving <span className="font-bold">amazing</span> food and delivering <span className="font-bold">excellent</span> service.
