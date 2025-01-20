@@ -50,11 +50,12 @@ const HowItWorks = () => {
                 <span className="text-2xl md:text-3xl font-bold text-eatsboost-orange">2</span>
               </div>
               <div>
-                <h2 className="text-xl md:text-2xl font-semibold text-black mb-2">Scan the QR Code in the App</h2>
-                <p className="text-black text-lg">Add the eatery by scanning the QR code on the back of your <span className="font-bold">Boost Card</span></p>
-                <div className="mt-4 p-4 bg-white/10 rounded-lg border border-white/20">
-                  <p className="text-black text-sm italic">
-                    Note: Keep your Boost Card safe, each boost card is unique to you and you will need it for exciting new features, soon to be launched.
+                <h2 className="text-xl md:text-2xl font-semibold text-black mb-2">Customer Complete Regular Visits</h2>
+                <p className="text-black text-lg">Before users can enter a <span className="font-bold">Boost Cycle</span> and generate offers (more on that below), they must complete a <span className="font-bold">predetermined number of visits set by you</span>. Customers send us a picture of their receipts, and we approve their visits.</p>
+                <div className="mt-4 p-4 bg-white/10 rounded-lg border border-white/20 flex items-start gap-3">
+                  <Lightbulb className="w-6 h-6 text-eatsboost-yellow flex-shrink-0 mt-1" />
+                  <p className="text-black text-sm">
+                    This way, we target <span className="font-bold">regulars</span>, who are the <span className="font-bold">lifeblood</span> of your business. We filter out <span className="font-bold">deal-hunters</span> and make sure that we only target customers who have the highest <span className="font-bold">lifetime value</span>, and make it higher.
                   </p>
                 </div>
               </div>
