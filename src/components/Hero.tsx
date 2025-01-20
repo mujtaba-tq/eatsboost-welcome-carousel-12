@@ -21,10 +21,10 @@ const Hero = () => {
           McDonald's and Starbucks have beautiful loyalty programs that help them make billions by driving <span className="font-bold">repeat</span> business - both huge companies with lots of technical expertise and money. But what about local restaurants?
         </p>
         <p className="text-lg md:text-xl text-black max-w-3xl animate-fade-up opacity-0" style={{ animationDelay: "0.45s" }}>
-          Loyalty programs are extremely beneficial and make a real difference. But running a successful loyalty program is really hard, and shouldn't be something you should worry about. Your focus should be on serving <span className="font-bold">amazing</span> food and delivering <span className="font-bold">excellent</span> service.
+          Loyalty programs are <span className="font-bold">extremely</span> beneficial and <span className="font-bold">boost</span> sales. But running a successful loyalty program is really hard and time consuming. Implementing them is a <span className="font-bold">no brainer</span> but <span className="font-bold">your</span> focus should be on serving <span className="font-bold">amazing</span> food and delivering <span className="font-bold">excellent</span> service.
         </p>
         <p className="text-lg md:text-xl text-black max-w-3xl animate-fade-up opacity-0" style={{ animationDelay: "0.47s" }}>
-          EatsBoost does all the <span className="font-bold">heavy-lifting</span> to provide you with a <span className="font-bold">sophisticated, revolutionary</span> loyalty platform so you can enjoy all the benefits, while focusing on what <span className="font-bold">really</span> matters
+          EatsBoost is a <span className="font-bold">one-of-a-kind</span> <span className="font-bold underline">customer engagement platform</span> that does all the <span className="font-bold">heavy-lifting</span> to provide you with all the benefits, but none of the headache. We manage everything, so you can focus on what <span className="font-bold">really</span> matters
         </p>
         <div className="relative animate-fade-up opacity-0" style={{ animationDelay: "0.5s" }}>
           <p className="text-2xl md:text-3xl font-bold text-black">
