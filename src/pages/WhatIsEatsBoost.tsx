@@ -28,22 +28,22 @@ const WhatIsEatsBoost = () => {
             className="text-2xl md:text-3xl text-black font-medium animate-fade-up opacity-0"
             style={{ animationDelay: "0.3s" }}
           >
-            Rethink loyalty altogether, EatsBoost is a completly different experience, no boring points per dollar
+            <span className="font-bold">Reimagine</span> what a loyalty program can be. EatsBoost is a <span className="font-bold">completely</span> different experience. We're ditching the boring old points per dollar system
           </p>
 
           <div className="space-y-6 text-left animate-fade-up opacity-0" style={{ animationDelay: "0.4s" }}>
             <p className="text-lg md:text-xl text-black">
-              We haven't been completly honest with you. You'll notice that nowhere have we stated that we're a loyalty app, because we're not. EatsBoost is a completely different platform, that abandons the same old points per dollar format that has existed for years
+              You'll notice that we haven't been calling ourselves a <span className="font-bold">loyalty program</span> - because that's not what EatsBoost is. It is something <span className="font-bold">completely</span> different. We're calling ourselves a <span className="font-bold underline">customer engagement platform</span>.
             </p>
             
             <p className="text-lg md:text-xl text-black font-medium">
-              Even though we're different, our goals for you remain the same:
+              Here are our goals for you:
             </p>
             
             <ul className="list-disc pl-6 space-y-2 text-lg md:text-xl text-black">
-              <li>Help you make more money</li>
-              <li>Make your customers happy and retain them</li>
-              <li>Put something in your customers hand that revitalizes the way they experience dining</li>
+              <li>Boost your sales</li>
+              <li>Keep your customers happy and <span className="font-bold">keep them coming back</span></li>
+              <li>Give your customers something that <span className="font-bold">reshapes</span> the way they experience dining</li>
             </ul>
           </div>
           
