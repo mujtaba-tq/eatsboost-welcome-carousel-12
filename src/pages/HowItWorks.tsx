@@ -50,7 +50,7 @@ const HowItWorks = () => {
                 <span className="text-2xl md:text-3xl font-bold text-eatsboost-orange">2</span>
               </div>
               <div>
-                <h2 className="text-xl md:text-2xl font-semibold text-black mb-2">Customer Complete Regular Visits</h2>
+                <h2 className="text-xl md:text-2xl font-semibold text-black mb-2">Customers Complete Regular Visits</h2>
                 <p className="text-black text-lg">Before users can enter a <span className="font-bold">Boost Cycle</span> and generate offers (more on that below), they must complete a <span className="font-bold">predetermined number of visits set by you</span>. Customers send us a picture of their receipts, and we approve their visits.</p>
                 <div className="mt-4 p-4 bg-white/10 rounded-lg border border-white/20 flex items-start gap-3">
                   <Lightbulb className="w-6 h-6 text-eatsboost-yellow flex-shrink-0 mt-1" />
@@ -71,7 +71,7 @@ const HowItWorks = () => {
                 <div className="mt-4 p-4 bg-white/10 rounded-lg border border-white/20 flex items-start gap-3">
                   <Lightbulb className="w-6 h-6 text-eatsboost-yellow flex-shrink-0 mt-1" />
                   <p className="text-black text-sm">
-                    Giving customers the ability to generate offers introduces a fun and exciting way to keep them coming back. Offer expiry makes adds an element of <span className="font-bold">urgency</span>.
+                    Giving customers the ability to generate offers introduces a fun and exciting way to keep them coming back. Offer expiry adds an element of <span className="font-bold">urgency</span>.
                   </p>
                 </div>
                 <div className="mt-4 p-4 bg-white/10 rounded-lg border border-white/20">
@@ -79,7 +79,7 @@ const HowItWorks = () => {
                     <span className="font-bold">Boost Cycle:</span> A period of 30 days where users can generate 2 offers per week
                   </p>
                   <p className="text-black text-sm mt-2">
-                    <span className="font-bold">Offer:</span> A discount on a regular priced item (i.e. 25% off a medium pizza)
+                    <span className="font-bold">Offer:</span> A discount on a regular priced item (i.e. 25% off a medium pizza). Offers can be either <span className="font-bold">Level 1</span>, <span className="font-bold">Level 2</span>, or <span className="font-bold">Level 3</span>
                   </p>
                 </div>
               </div>
