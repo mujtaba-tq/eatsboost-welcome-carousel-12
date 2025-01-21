@@ -66,16 +66,20 @@ const HowItWorks = () => {
                 <span className="text-2xl md:text-3xl font-bold text-eatsboost-orange">3</span>
               </div>
               <div>
-                <h2 className="text-xl md:text-2xl font-semibold text-black mb-2">Complete Regular Visits</h2>
-                <p className="text-black text-lg">Each eatery will have a few number of regular visits (with a minimum spend) to complete before being able to generate offers. Log your visits in the app to enter a <span className="font-bold">Boost Cycle</span>*, and begin generating offers.</p>
-                <div className="mt-4 p-4 bg-white/10 rounded-lg border border-white/20">
-                  <p className="text-black text-sm italic">
-                    <span className="font-bold">Example:</span> Papa's Pizzeria - 2 regular visits & $9.99 spend per visit to unlock <span className="font-bold">Boost Cycle</span>.
+                <h2 className="text-xl md:text-2xl font-semibold text-black mb-2">Customers Generate Offers & Redeem</h2>
+                <p className="text-black text-lg">This is our secret sauce. After completing visits, customers can start a <span className="font-bold">Boost Cycle*</span> and generate <span className="font-bold">2 offers</span> every <span className="font-bold">7 days</span>, which get loaded into their profile <span className="font-bold">but</span> also expire after <span className="font-bold">7 days</span>. When they are ready to use them, they activate the offer in the app, and show your staff to redeem.</p>
+                <div className="mt-4 p-4 bg-white/10 rounded-lg border border-white/20 flex items-start gap-3">
+                  <Lightbulb className="w-6 h-6 text-eatsboost-yellow flex-shrink-0 mt-1" />
+                  <p className="text-black text-sm">
+                    Giving customers the ability to generate offers introduces a fun and exciting way to keep them coming back. Offer expiry makes adds an element of <span className="font-bold">urgency</span>.
                   </p>
                 </div>
                 <div className="mt-4 p-4 bg-white/10 rounded-lg border border-white/20">
-                  <p className="text-black text-sm italic">
-                    <span className="font-bold">Boost Cycle:</span> A period of 30 days where you can generate 2 offers every 7 days. Once a <span className="font-bold">Boost Cycle</span> ends, complete visits to begin a new <span className="font-bold">Boost Cycle</span>.
+                  <p className="text-black text-sm">
+                    <span className="font-bold">Boost Cycle:</span> A period of 30 days where users can generate 2 offers per week
+                  </p>
+                  <p className="text-black text-sm mt-2">
+                    <span className="font-bold">Offer:</span> A discount on a regular priced item (i.e. 25% off a medium pizza)
                   </p>
                 </div>
               </div>
