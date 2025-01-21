@@ -90,8 +90,14 @@ const HowItWorks = () => {
                 <span className="text-2xl md:text-3xl font-bold text-eatsboost-orange">4</span>
               </div>
               <div>
-                <h2 className="text-xl md:text-2xl font-semibold text-black mb-2">Generate Offers</h2>
-                <p className="text-black text-lg">You can generate <span className="font-bold">two offers</span> once every <span className="font-bold">7 days</span> (redeem before they expire!). Offers get better over time, so keep generating and redeeming!</p>
+                <h2 className="text-xl md:text-2xl font-semibold text-black mb-2">Billing</h2>
+                <p className="text-black text-lg">Our billing cycle runs from the <span className="font-bold">1st</span> of the month to the <span className="font-bold">30th</span> or <span className="font-bold">31st</span> of the month. At the end of the billing cycle, we send you an invoice that details all the offers redeemed in the month.</p>
+                <div className="mt-4 p-4 bg-white/10 rounded-lg border border-white/20 flex items-start gap-3">
+                  <Lightbulb className="w-6 h-6 text-eatsboost-yellow flex-shrink-0 mt-1" />
+                  <p className="text-black text-sm">
+                    Our total charges consist of a small monthly subscription, charges per offer redeemed, and charges for active user fees. Please contact sales in the next page for further details.
+                  </p>
+                </div>
               </div>
             </div>
 
@@ -100,8 +106,19 @@ const HowItWorks = () => {
                 <span className="text-2xl md:text-3xl font-bold text-eatsboost-orange">5</span>
               </div>
               <div>
-                <h2 className="text-xl md:text-2xl font-semibold text-black mb-2">Redeem</h2>
-                <p className="text-black text-lg">When ready to redeem, activate the offer in the app and show the server</p>
+                <h2 className="text-xl md:text-2xl font-semibold text-black mb-2">Boost Your Sales</h2>
+                <p className="text-black text-lg">Enjoy the full benefits of <span className="font-bold">tapping</span> into the network of customers around you, and for the first time, engage with them in an <span className="font-bold">exciting</span> and <span className="font-bold">exclusive</span> way</p>
+                <div className="mt-4 p-4 bg-white/10 rounded-lg border border-white/20 flex items-start gap-3">
+                  <Lightbulb className="w-6 h-6 text-eatsboost-yellow flex-shrink-0 mt-1" />
+                  <p className="text-black text-sm">
+                    Leave all the complex and time consuming efforts to us, and focus on delivering <span className="font-bold">excellent</span> food and service
+                  </p>
+                </div>
+                <div className="mt-4 p-4 bg-white/10 rounded-lg border border-white/20">
+                  <p className="text-black text-sm">
+                    We want to be fully transparent - we are a new company and we can't guarantee results. <span className="font-bold">But</span> what we <span className="font-bold">can guarantee</span> is a <span className="font-bold">90-day</span> full money back guarantee. Give us 90-day's to show you results, and we'll give you a full, <span className="font-bold">hassle-free</span> refund if you are unsatisfied with the results. That's an <span className="font-bold">EatsBoost promise</span>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
