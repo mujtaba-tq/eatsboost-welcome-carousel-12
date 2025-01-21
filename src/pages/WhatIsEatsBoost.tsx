@@ -33,7 +33,7 @@ const WhatIsEatsBoost = () => {
 
           <div className="space-y-6 text-left animate-fade-up opacity-0" style={{ animationDelay: "0.4s" }}>
             <p className="text-lg md:text-xl text-black">
-              You'll notice that we haven't been calling ourselves a <span className="font-bold">loyalty program</span> - because that's not what EatsBoost is. It is something <span className="font-bold">completely</span> different. We're calling ourselves a <span className="font-bold underline">customer engagement platform</span>.
+              You'll notice that we haven't been calling ourselves a <span className="font-bold">loyalty program</span> - because that's not what <span className="font-bold">EatsBoost</span> is. <span className="font-bold">EatsBoost</span> is something <span className="font-bold">completely</span> different. We're calling ourselves a <span className="font-bold underline">customer engagement platform</span>.
             </p>
             
             <p className="text-lg md:text-xl text-black font-medium">
