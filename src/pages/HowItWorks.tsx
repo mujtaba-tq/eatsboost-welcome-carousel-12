@@ -21,8 +21,8 @@ const HowItWorks = () => {
             className="text-2xl md:text-4xl font-bold text-black animate-fade-up opacity-0"
             style={{ animationDelay: "0.2s" }}
           >
-            Buy a Boost Card, Complete & Log Visits, Enter a Boost Cycle, Generate Offers, Redeem, Repeat.
-            <span className="block mt-2 text-xl md:text-2xl italic">Reshape Your Dining Experience</span>
+            Reward Your Regulars. Increase Lifetime Value. Boost Your Sales.
+            <span className="block mt-2 text-xl md:text-2xl italic">You Focus on the Food, We Got the Loyalty</span>
           </h1>
 
           <div 
