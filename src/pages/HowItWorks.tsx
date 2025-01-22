@@ -9,7 +9,7 @@ const HowItWorks = () => {
   const navigate = useNavigate();
 
   const handleContactSales = () => {
-    window.open('https://docs.google.com/forms/d/e/1FAIpQLSfQZ5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z/viewform?usp=sf_link', '_blank');
+    window.open('https://docs.google.com/forms/d/e/1FAIpQLSd6asTwU1dgnqcAmVeKFP8mCjACxxajE2WH30XSv-Vrj1RGDg/viewform?usp=dialog', '_blank');
   };
 
   return (
