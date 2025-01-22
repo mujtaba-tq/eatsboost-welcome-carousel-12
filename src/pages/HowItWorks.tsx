@@ -8,6 +8,10 @@ import BackButton from "../components/BackButton";
 const HowItWorks = () => {
   const navigate = useNavigate();
 
+  const handleContactSales = () => {
+    window.open('https://docs.google.com/forms/d/e/1FAIpQLSfQZ5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z/viewform?usp=sf_link', '_blank');
+  };
+
   return (
     <div className="min-h-[100dvh] flex flex-col items-center p-6 gradient-background">
       <BackButton />
@@ -126,12 +130,12 @@ const HowItWorks = () => {
 
         <div className="mt-16 flex justify-center">
           <Button 
-            className="animate-fade-up opacity-0 bg-white text-black hover:bg-gray-100"
+            className="animate-fade-up opacity-0 bg-white text-black hover:bg-gray-100 transform hover:scale-105 transition-all duration-300 text-lg md:text-xl py-6 px-12 shadow-lg hover:shadow-xl border-2 border-eatsboost-orange"
             style={{ animationDelay: "0.6s" }}
-            onClick={() => navigate("/download")}
+            onClick={handleContactSales}
           >
-            Next
-            <ArrowRight className="ml-2" />
+            Contact Sales
+            <ArrowRight className="ml-2 w-6 h-6" />
           </Button>
         </div>
       </div>
