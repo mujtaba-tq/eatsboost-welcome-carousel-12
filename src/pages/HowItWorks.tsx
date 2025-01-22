@@ -35,11 +35,11 @@ const HowItWorks = () => {
               </div>
               <div>
                 <h2 className="text-xl md:text-2xl font-semibold text-black mb-2">Sell a Boost Card</h2>
-                <p className="text-black text-lg">Purchase Boost Cards from EatsBoost in bulk, and sell them for <span className="font-bold">$8</span>. This gives customers the ability to add your eatery to their profile.</p>
+                <p className="text-black text-lg">Purchase Boost Cards from EatsBoost in bulk, and sell them for <span className="font-bold">$8</span>. This gives customers the ability to add your eatery to their profile. <span className="font-bold">Cover the upfront investment</span>, and generate a nice profit.</p>
                 <div className="mt-4 p-4 bg-white/10 rounded-lg border border-white/20 flex items-start gap-3">
                   <Lightbulb className="w-6 h-6 text-eatsboost-yellow flex-shrink-0 mt-1" />
                   <p className="text-black text-sm">
-                    Think of it like a Costco-style model to access your eatery on the <span className="font-bold">EatsBoost Network</span>. If customers have already paid for the privilege of adding your eatery and generating offers, they are more likely to dine here, and as a result spend more.
+                    Think of it like a Costco-style model to access your eatery on the <span className="font-bold">EatsBoost Network</span>. If customers have already paid for the privilege of adding your eatery and generating offers, they are more likely to keep coming back, and as a result spend more.
                   </p>
                 </div>
               </div>
@@ -55,7 +55,7 @@ const HowItWorks = () => {
                 <div className="mt-4 p-4 bg-white/10 rounded-lg border border-white/20 flex items-start gap-3">
                   <Lightbulb className="w-6 h-6 text-eatsboost-yellow flex-shrink-0 mt-1" />
                   <p className="text-black text-sm">
-                    This way, we target <span className="font-bold">regulars</span>, who are the <span className="font-bold">lifeblood</span> of your business. We filter out <span className="font-bold">deal-hunters</span> and make sure that we only target customers who have the highest <span className="font-bold">lifetime value</span>, and make it higher.
+                    This way, we target <span className="font-bold">regulars</span>, who are the <span className="font-bold">lifeblood</span> of your business. We filter out <span className="font-bold">deal-hunters</span> and make sure that we only target customers who have the highest <span className="font-bold">lifetime value</span>, and make it even higher.
                   </p>
                 </div>
               </div>
@@ -67,7 +67,7 @@ const HowItWorks = () => {
               </div>
               <div>
                 <h2 className="text-xl md:text-2xl font-semibold text-black mb-2">Customers Generate Offers & Redeem</h2>
-                <p className="text-black text-lg">This is our secret sauce. After completing visits, customers can start a <span className="font-bold">Boost Cycle*</span> and generate <span className="font-bold">2 offers</span> every <span className="font-bold">7 days</span>, which get loaded into their profile <span className="font-bold">but</span> also expire after <span className="font-bold">7 days</span>. When they are ready to use them, they activate the offer in the app, and show your staff to redeem.</p>
+                <p className="text-black text-lg">This is our secret sauce. After completing visits, customers can start a <span className="font-bold">Boost Cycle*</span> and generate <span className="font-bold">2 offers</span> every <span className="font-bold">7 days</span>, which get loaded into their profile <span className="font-bold">but</span> also expire after <span className="font-bold">7 days</span>. When they are ready to use them, they activate the offer in the app, and show your staff to redeem. We'll schedule a short <span className="font-bold">10-min</span> meeting to set guidelines, and we'll take care of creating the best, <span className="font-bold">AI-driven</span> offers for you.</p>
                 <div className="mt-4 p-4 bg-white/10 rounded-lg border border-white/20 flex items-start gap-3">
                   <Lightbulb className="w-6 h-6 text-eatsboost-yellow flex-shrink-0 mt-1" />
                   <p className="text-black text-sm">
@@ -116,7 +116,7 @@ const HowItWorks = () => {
                 </div>
                 <div className="mt-4 p-4 bg-white/10 rounded-lg border border-white/20">
                   <p className="text-black text-sm">
-                    We want to be fully transparent - we are a new company and we can't guarantee results. <span className="font-bold">But</span> what we <span className="font-bold">can guarantee</span> is a <span className="font-bold">90-day</span> full money back guarantee. Give us 90-day's to show you results, and we'll give you a full, <span className="font-bold">hassle-free</span> refund if you are unsatisfied with the results. That's an <span className="font-bold">EatsBoost promise</span>
+                    The best part? We're offering a <span className="font-bold">90-day money back guarantee</span>. If at any point, you are unsatisfied with EatsBoost, we will issue you a 100% hassle-free refund
                   </p>
                 </div>
               </div>
