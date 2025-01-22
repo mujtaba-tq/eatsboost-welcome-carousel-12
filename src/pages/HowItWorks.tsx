@@ -9,7 +9,7 @@ const HowItWorks = () => {
   const navigate = useNavigate();
 
   const handleContactSales = () => {
-    window.open('https://docs.google.com/forms/d/e/1FAIpQLSd6asTwU1dgnqcAmVeKFP8mCjACxxajE2WH30XSv-Vrj1RGDg/viewform?usp=dialog', '_blank');
+    window.open('https://calendly.com/eatsboost1/30min', '_blank');
   };
 
   return (
@@ -134,7 +134,7 @@ const HowItWorks = () => {
             style={{ animationDelay: "0.6s" }}
             onClick={handleContactSales}
           >
-            Contact Sales
+            Contact Sales/Schedule a Meeting
             <ArrowRight className="ml-2 w-6 h-6" />
           </Button>
         </div>
