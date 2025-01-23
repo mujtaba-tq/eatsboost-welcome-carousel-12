@@ -134,7 +134,7 @@ const HowItWorks = () => {
             style={{ animationDelay: "0.6s" }}
             onClick={handleContactSales}
           >
-            Contact Sales/Schedule a Meeting
+            Get Started - Book a Meeting
             <ArrowRight className="ml-2 w-6 h-6" />
           </Button>
         </div>
