@@ -1,3 +1,4 @@
+
 import React from "react";
 import Logo from "../components/Logo";
 import { Button } from "../components/ui/button";
@@ -39,7 +40,7 @@ const HowItWorks = () => {
               </div>
               <div>
                 <h2 className="text-xl md:text-2xl font-semibold text-black mb-2">Sell a Boost Card</h2>
-                <p className="text-black text-lg">Purchase Boost Cards from EatsBoost in bulk, and sell them for <span className="font-bold">$8</span>. This gives customers the ability to add your eatery to their profile. <span className="font-bold">Cover the upfront investment</span>, and generate a nice profit.</p>
+                <p className="text-black text-lg">Purchase Boost Cards from EatsBoost in bulk, and sell them for <span className="font-bold">$10</span>. This gives customers the ability to add your eatery to their profile. <span className="font-bold">This model let's you cover the upfront investment, and generate a nice profit.</span></p>
                 <div className="mt-4 p-4 bg-white/10 rounded-lg border border-white/20 flex items-start gap-3">
                   <Lightbulb className="w-6 h-6 text-eatsboost-yellow flex-shrink-0 mt-1" />
                   <p className="text-black text-sm">
