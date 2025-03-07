@@ -1,4 +1,3 @@
-
 import React from "react";
 import Logo from "../components/Logo";
 import { Button } from "../components/ui/button";
@@ -26,8 +25,7 @@ const HowItWorks = () => {
             className="text-2xl md:text-4xl font-bold text-black animate-fade-up opacity-0"
             style={{ animationDelay: "0.2s" }}
           >
-            Reward Your Regulars. Increase Lifetime Value. Boost Your Sales.
-            <span className="block mt-2 text-xl md:text-2xl italic">You Focus on the Food, We Got the Loyalty</span>
+            How it Works
           </h1>
 
           <div 
